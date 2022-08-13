@@ -1,0 +1,426 @@
+body {
+	margin:0;
+	font-family: "Segoe UI";
+}
+
+
+
+
+/********* Header-area *********/
+
+.container {
+	width:60%;
+	margin:auto;
+}
+
+.header-area {
+	background:#23232e;
+	text-align:center;
+	padding:30px 0;
+}
+
+.header-area a {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+.text-area h2 {
+	color:#FFFFFF;
+	text-transform:uppercase;
+	font-size:52px;
+}
+	
+.text-area p {
+	color:#c8c8ca;
+	font-size:12px;
+	width: 38%;
+	margin: auto;
+}
+
+.logo-area img {
+	width:80px;
+	height:auto;
+	margin-bottom:35px;
+}
+
+.next-section {
+	margin-top:100px;
+}
+
+.next-section a i {
+	border:1px solid #FFFFFF;
+	font-size:10px;
+	width:10px;
+	height:10px;
+	padding:10px;
+	border-radius:50%
+}
+
+
+
+
+/********* About-area *********/
+
+.about {
+	background:url('images/background.png');
+	background-size:cover;
+	background-repeat:no-repeat;
+	margin-top:60px;
+}
+
+.content p {
+	text-align:center;
+	color:#464b4f;
+	font-size:20px;
+	width:71%;
+	margin:auto;
+}
+	
+.content p:first-child {
+	padding-bottom:25px;
+}
+
+.about h2 {
+	text-align:center;
+	color:#464b4f;
+	text-transform:uppercase;
+	margin-top:60px;
+	font-size:52px
+}
+
+.col-1-3 h5 {
+	text-transform:uppercase;
+	color:#464b4f;
+	font-size:12px;
+}
+
+.col-1-3 p {
+	color:#888a8b;
+	font-size:12px;
+}
+
+.about-us {
+	overflow:hidden;
+	margin-bottom:55px;
+}
+
+.col-1-3 img {
+	width:100%;
+	height:auto;
+}
+
+.about-us .col-1-3 {
+	width:30.33%;
+	margin-right:3%;
+	float:left;
+	overflow:hidden;
+}
+
+
+
+
+/********* protfolio-area *********/
+
+
+.protfolio {
+	background:#23232D;
+	padding:30px 0;
+	overflow:hidden;
+}
+
+.protfolio h1,
+.protfolio h2,
+.protfolio h3,
+.protfolio h4,
+.protfolio h5,
+.protfolio h6 {
+	color:#FFFFFF;
+}
+
+
+.protfolio h2 {
+	font-size:52px;
+	text-align:center;
+	text-transform:uppercase;
+	color:#FFFFFF;
+}
+
+.work-category {
+	overflow:hidden;
+	margin-bottom:43px;
+}
+
+
+.work-category ul {
+	margin:0;
+	padding:0;
+	text-align:center;
+	list-style:none;
+}
+
+
+.work-category ul li {
+	display:inline;
+	margin:0 10px;
+}
+
+
+.work-category ul li a {
+	text-decoration:none;
+	color:#FFFFFF;
+	display:inline-block;
+	text-transform:capitalize;
+	font-size:13px;
+	border-bottom:2px solid transparent;
+	padding:3px 0;
+}
+
+
+.work-category ul li a:hover {
+	border-bottom:2px solid #7B78C9;
+}
+
+
+.work-category ul .active a {
+	border-bottom:2px solid #7B78C9;
+}
+
+.work-columns {
+	text-align:center;
+	margin-bottom:60px;
+	overflow:hidden;
+}
+
+
+.col-1-3 a:nth-child(3) {
+	text-decoration:none;
+	color:#818baa;
+	font-size:12px;
+	text-transform:capitalize;
+}
+
+.col-1-3 a:nth-child(2) {
+	color:#FFFFFF;
+	text-decoration:none;
+	font-size:12px;
+	text-transform:capitalize;
+	font-family: Segoe UI;
+}
+
+.col-1-3 h3 {
+	font-weight:normal;
+	margin-bottom: 0;
+}
+
+
+.work-columns .col-1-3 {
+	width:31.33%;
+	float:left;
+	margin:0.5%;
+	overflow:hidden;
+
+}
+
+
+.work-columns .col-1-3 {
+	margin-bottom: 25px;
+}
+
+
+.col-1-3 img {
+	width:100%;
+	height:auto;
+}
+
+
+.button {
+	text-align:center;
+	padding-bottom:25px;
+}
+
+
+.button a {
+	text-decoration:none;
+	color:#FFFFFF;
+	text-transform:capitalize;
+	background:#7B78C9;
+	border-radius:5px;
+	padding:9px 30px;
+	font-size:14px;
+}
+
+
+
+
+/********* photography **********/
+
+.photography {
+	background:url(images/background.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding:60px 0px;
+	overflow:hidden;
+}
+
+
+.photography h2 {
+	font-size:52px;
+	text-align:center;
+	color:#464b4f;
+	text-transform:uppercase;
+	margin:0;
+}
+
+
+.photography p {
+	text-align:center;
+	color:#888a8b;
+	font-size:20px;
+	width:64%;
+	margin:auto;
+	padding: 35px 0;
+}
+
+
+.photo-columns {
+	padding-bottom:50px;
+	overflow:hidden;
+	text-align:center;
+}
+
+
+.photo {
+	width:31.33%;
+	margin-right:2%;
+	float:left;
+	overflow:hidden;
+}
+
+
+.photo img {
+	width:100%;
+	height:auto;
+	margin:5px 0;
+}
+
+
+.photo-button {
+	text-align:center;
+}
+
+
+.photo-button a {
+	text-decoration:none;
+	color:#FFFFFF;
+	text-transform:capitalize;
+	background:#7B78C9;
+	border-radius:4px;
+	padding:9px 20px;
+	font-size:14px;
+}
+	
+
+
+
+/*********** subscribe ***********/
+
+
+.subscribe {
+	background:#23232D;
+	text-align:center;
+	padding:150px 0px;
+	color:#FFFFFF;
+}
+
+
+.infinite img {
+	width:60px;
+	height:auto;
+}
+
+
+.subscribe p {
+	font-size:14px;
+	padding:25px;
+	width:42%;
+	margin: auto;
+}
+
+
+.subscribe form input {
+	color:#666666;
+	font-size:15px;
+	padding:10px 35px;
+	border:none;
+	border-radius:5px;
+	font-family:Segoe UI;
+}
+
+	
+.subscribe form input[type="text"] {
+	margin-right:5px;
+}
+	
+	
+.subscribe form input[type="submit"] {
+	color:#FFFFFF;
+	background:#7B78C9;
+	cursor:pointer;
+}
+
+
+
+/********* footer *********/
+
+
+.footer-area {
+	background:url(images/background.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding:60px 0;
+}
+
+.copyright p {
+	text-transform:capitalize;
+	text-align:center;
+	color:#888a8b;
+	font-size:12px;
+}
+
+
+.copyright {
+	padding-top:30px;
+}
+
+
+.socal-profile ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	text-align:center;
+	
+}
+
+
+.socal-profile ul li {
+	display:inline;
+	margin:0px 12px;
+}
+
+	
+.socal-profile ul li a {
+	color:#cccccc;
+	font-size:25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

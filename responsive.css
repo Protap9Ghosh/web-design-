@@ -1,0 +1,62 @@
+@media all and (max-width: 768px) {
+	.work-columns .col-1-3 {
+		width: 48%;
+		margin-right: 1%;
+	}
+	
+	
+	.photo {
+	width:46%;
+	margin-right:2%;
+	}
+}
+
+
+
+
+@media all and (max-width: 633px) {
+	.subscribe form input[type="text"] {
+		display: block;
+		margin: auto;
+		margin-bottom: 25px;
+	}
+	
+	
+	.work-columns .col-1-3 {
+		width: 98%;
+		margin: 1%;
+	}
+	
+	
+	.photo {
+	width:98%;
+	margin-right:1%;
+	}
+	
+	
+	.subscribe form input[type="submit"] {
+		padding: 10px 85px;
+	}
+	
+	
+	.about-us .col-1-3 {
+	width:48%;
+	margin-right:2%;
+	}
+	
+	
+}
+
+
+
+
+@media all and (max-width: 600px) {
+	.photography h2 {
+		font-size:35px;
+	}
+	
+}
+
+
+
+
